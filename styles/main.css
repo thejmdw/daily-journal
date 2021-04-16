@@ -1,0 +1,47 @@
+/* Essential Stuff */
+
+
+
+/* Header Stuff */
+header {
+  margin: 2em auto;
+  width: 43%;
+  text-align: center;
+  border: .25em solid black;
+  border-radius: .5em;
+  padding: .5em 0;
+}
+
+
+/* Form Stuff */
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  margin: .5em;
+  border: .25em solid black;
+  border-radius: .5em;
+  background-color: gainsboro;
+}
+
+form {
+  width: 41.5%;
+  margin: 0 auto;
+  border: .25em solid black;
+  padding: 1em;
+  border-radius: .5em;
+  background-color: white
+}
+
+/* Footer Stuff */
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  margin: 1em auto;
+  border: .25em solid black;
+  border-radius: .5em;
+  padding: .5em 0;
+}
+

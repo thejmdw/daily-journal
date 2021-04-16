@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <link rel="stylesheet" type="text/css" href="./styles/main.css">
+  <title>Daily Journal</title>
+</head>
+<body>
+  <header>
+    <div class="logo">theJMDW</div>
+    <h2 class="title">Daily Journal</h2>
+  </header>
+  <main>
+    <form action="">
+      <fieldset>
+        <label for="journalDate">Date of Entry</label>
+        <input type="date" name="journalDate" id="journalDate">
+      </fieldset>
+      <fieldset>
+        <label for="concepts">Concepts Covered</label>
+        <input type="text" name="concepts" id="concepts">
+      </fieldset>
+      <fieldset>
+        <label for="journalEntry">Journal Entry</label>
+        <textarea type="text" name="journalEntry" id="journalEntry" rows="5" cols="30"></textarea>
+      </fieldset>
+      <fieldset>
+        <label for="mood">Mood for the Day</label>
+        <select name="mood" id="mood">
+          <option value="happy">Happy</option>
+          <option value="fine">Fine</option>
+          <option value="sad">Sad</option>
+        </select>
+      </fieldset>
+      <input type="submit" value="Submit Journal Entry">
+    </form>
+    <section class="entry-list-container">
+      <ul class="entry-list" id="entryList"></ul>
+    </section>
+  </main>
+  <footer>
+    <div class="name">Jonathan Watson</div>
+    <a href="https://www.github.com/thejmdw" class="link">GitHub</a>
+    <div class="copywrite">© 2021</div>
+  </footer>
+
+ <script src="./scripts/main.js"></script>
+</body>
+</html>
