@@ -18,9 +18,13 @@ export const JournalForm = () => {
       <fieldset>
         <label for="mood">Mood for the Day</label>
         <select name="mood" id="mood">
+          <option value="fun">Fun</option>
           <option value="happy">Happy</option>
+          <option value="ok">Ok</option>
           <option value="fine">Fine</option>
+          <option value="meh">Meh</option>
           <option value="sad">Sad</option>
+          <option value="harrowing">Harrowing</option>
         </select>
       </fieldset>
       <input type="submit" value="Submit Journal Entry">
