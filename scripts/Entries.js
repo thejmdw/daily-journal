@@ -1,11 +1,13 @@
-import { getJournalEntries } from "./database.js"
+import { useEntries } from "./database.js"
+import { getEntries } from "./database.js"
+
 
 
 export const Entries = () => {
-  const entries = getJournalEntries() 
+  const newEntries = useEntries() 
   let allEntriesAsHTML = ""
-  console.log(entries)
-  for (const entry of entries) {
+  // console.log(newEntries)
+  for (const entry of newEntries) {
 
     allEntriesAsHTML += `
     <h3>${entry.concept}</h3>
