@@ -48,4 +48,5 @@ footer {
 /* Entry Stuff */
 #entries {
   width: 40%;
+  padding: 0 3em;
 }
