@@ -15,9 +15,9 @@ const database = {
 // raw data in the format that you want
 
 export const useEntries = () => {
-  // const newData = getEntries()
+  
   const copyOfData = [...database.entries]
-  // console.log(copyOfData)
+  
   return copyOfData
   
 }
@@ -25,10 +25,10 @@ export const useEntries = () => {
 export const getEntries = () => {
   return fetch("http://localhost:8088/entries")
     .then(response => response.json()) //parse as JSON
-    .then(parseEntries => {
+    .then(data => {
       //what should happen when we finally have the array?
       
-      database.entries = parseEntries
+      database.entries = data
       
     }
     )
