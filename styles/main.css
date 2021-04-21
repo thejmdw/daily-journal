@@ -45,3 +45,7 @@ footer {
   padding: .5em 0;
 }
 
+/* Entry Stuff */
+#entries {
+  width: 40%;
+}
